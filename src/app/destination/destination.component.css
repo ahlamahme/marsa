@@ -1,0 +1,12 @@
+h1{
+    color: #004796;
+    font-weight: bold;
+}
+.orang-text{
+    color: #FF681A;
+    font-weight: bold;
+}
+p{
+    text-transform: capitalize;
+    color: #004796;
+}

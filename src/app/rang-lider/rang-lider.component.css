@@ -1,0 +1,33 @@
+@keyframes moveDiv {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(145px);
+    }
+  }
+.progress {
+    width: 150px;
+    height: 5px;
+    background: rgba(236,101,0,.25);
+    border-radius: 100px;
+    position: relative;
+    margin: auto;
+    
+  }
+ 
+  .pro{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background: #ff681a;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation: moveDiv 2s infinite alternate;
+  }
+  .margin-bottn{
+
+    
+  }

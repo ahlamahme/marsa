@@ -1,0 +1,21 @@
+<div class="text-center py-5">
+    <p class="blue ">CITY TOUR</p>
+    <p class="bold-blue">Our <span class="orange">Tours</span></p>
+    <app-rang-lider></app-rang-lider>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let card of cards">
+        <div class="card">
+          <img [src]="card.image" class="card-img-top" [alt]="card.title">
+          <div class="card-body">
+            <h5 class="card-title">{{ card.title }}</h5>
+            <p class="card-text">{{ card.content }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="btn-container text-center">
+    <button class="custom">View offers</button>
+  </div>

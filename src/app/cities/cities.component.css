@@ -1,0 +1,65 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .arrow-container {
+    
+    
+    align-items: center;
+    height: 50px;
+
+  }
+  
+  .arrow {
+    display: inline-block;
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease-in-out;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    
+  }
+ 
+
+  .arrow:hover {
+    color: #666;
+    background-color: #f2f2f2;
+    
+  }
+  
+  .arrow:hover {
+    opacity: 0;
+  }
+  
+  .arrow-container:hover .arrow {
+    opacity: 1;
+  }
+  .text-img{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  justify-content: center;
+  
+  }
+  .img{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  .blue{
+    color:#004796;
+    text-transform: uppercase;
+  }
+
+  

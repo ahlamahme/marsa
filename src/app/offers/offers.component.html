@@ -1,0 +1,32 @@
+<div class="text-center py-5">
+    <p class="blue ">Offers</p>
+    <h1 class="bold-blue">Best Offers  <span class="orange">for you</span></h1>
+    <app-rang-lider></app-rang-lider>
+  </div>
+      
+  <div class="slick-wrapper ">
+    <ngx-slick-carousel  [config]="slideConfig" >
+      <div ngxSlickItem *ngFor="let slide of slides">
+        <div class="div-under-img border ">
+        <img class="slid-img img-fluid" [src]="slide.image ">
+      <div class="offer-content d-flex justify-content-around">
+        <div >
+          <p>Marsa Alam Package</p>              
+          <p><span class="fa fa-clock "></span>2 days and 3 nights</p>       
+      </div>
+      <div  >
+        <p>From</p>              
+        <p class="mony" >300$</p>       
+    </div>
+
+      </div>
+        
+        </div>
+        
+      </div>
+    </ngx-slick-carousel>
+    </div>
+    <div class="btn-container text-center">
+        <button class="custom">View offers</button>
+      </div>
+    

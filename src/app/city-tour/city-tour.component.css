@@ -1,0 +1,41 @@
+.slid-img{
+    display: block; 
+    width: 75%;
+}
+.container-img{
+
+    
+    
+     background-color: #004796;
+     display: 50%;
+     background-size: cover;
+     margin: 50px;
+     width: 100%;
+     margin: 0;
+     display: inline;
+     
+}
+.orange{
+
+    color: #FF681A;
+    font-weight: bold;
+}
+.blue{ color: #004796;}
+
+.bold-blue{
+    color: #004796;
+    font-weight: bold;
+
+}
+.custom{
+    background-color:#004796;
+    margin: 50px;
+}
+.slick-wrapper{
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black!important;
+}
