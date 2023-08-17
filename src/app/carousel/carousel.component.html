@@ -1,18 +1,23 @@
-<!-- <div class="carousel-div">  
+<div class="carousel-div" >
+  
+  
 
-    <carousel [pauseOnFocus]="true">
-        <slide>
+  <owl-carousel-o [options]="customOptions" >
+    <ng-container >   
+      <ng-template carouselSlide >  
+           
           <img src="../../assets/tutle.png" alt="First slide" style="display: block; width: 100%;">
           <div class="carousel-caption  ">
             <h1>Enjoynment Time</h1>
             <p>Are you planning a vacation to enjoy your free time? Looking for a place to explore</p>
           </div>
-        </slide>
-      </carousel>
+        
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
 
-  <img class="whats-img" src="../../assets/icons8-whatsapp.svg">
+  <img class="whats-img " src="../../assets/icons8-whatsapp.svg">
   <img class="circle" src="../../assets/circle.png">
-
   <div class="container">
     <div class="row">
       <div class="col-md-6 mx-auto">
@@ -33,4 +38,5 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
+

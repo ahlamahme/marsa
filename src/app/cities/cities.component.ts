@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @Component({
   selector: 'app-cities',
   templateUrl: './cities.component.html',
   styleUrls: ['./cities.component.css']
 })
+
+
+
 
 
 

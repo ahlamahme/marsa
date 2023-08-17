@@ -37,6 +37,7 @@ import { MatOptionModule } from '@angular/material/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
+
  
 
 
@@ -76,7 +77,7 @@ import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
-   // CarouselModule.forRoot(),
+   //CarouselModule.forRoot(),
     [BsDropdownModule.forRoot()],
     CommonModule,
     SlickCarouselModule,
@@ -84,13 +85,9 @@ import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
     FormsModule,
     MatIconModule,
     MatSelectModule,
-    MatOptionModule,
-    
+    MatOptionModule,  
     CarouselModule,
     FontAwesomeModule,
-    
-
-
   ],
   
   providers: [],

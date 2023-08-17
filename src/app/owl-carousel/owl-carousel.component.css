@@ -1,0 +1,38 @@
+.carousel-image {
+    opacity: 1; 
+  }
+
+
+.bg{
+    background-image: url(../../assets/summer-background-sea-water.jpg);
+    width: 100%;
+    height: 300px;
+    opacity: 0.8;
+    margin-top: 100px;
+    justify-items: center;
+
+}
+
+ .owl-item {
+   border-radius: 20px;
+   opacity: 1;
+   
+
+   
+}
+.carousel-caption {
+    text-align: left;
+    padding: 0;
+  }
+.fas{
+    color: #FF681A;
+}
+.custom{
+    background-color:#004796;
+    margin: 50px;
+    border-color:#004796;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+

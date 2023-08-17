@@ -2,11 +2,11 @@ select{
     width:150px;
     
 }
-.carousel-img{
+.owl-carousel{
 
 
     background-size: cover;
-    background-image: url('../../assets/tutle.png');
+   
 }
 .carousel-div{
 
@@ -16,13 +16,16 @@ select{
     position: absolute;
     top:65%;
     left: 0;
+    z-index: 1;
 }
 .circle{
     position: absolute;
     top:65%;
     right: 0;
+    z-index: 1;
 
 }
+
 
 .carousel-caption{
     top:30%;
@@ -35,7 +38,8 @@ select{
     border-radius: 20px;
     color: #004796;
     
-    transform: translateY(-50%);   
+    transform: translateY(-50%);  
+    z-index: 1; 
      
 }
 .card-body{
@@ -65,3 +69,40 @@ line-height: 108px;
     margin: 12px;
 
     }
+
+
+    /*arrows*/
+    .owl-carousel .owl-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+      
+      .owl-carousel .owl-prev,
+      .owl-carousel .owl-next {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        border-radius: 50%;
+        background: #000;
+        color: #fff;
+        opacity: 0.5;
+      }
+      
+      .owl-carousel .owl-prev {
+        left: 10px;
+      }
+      
+      .owl-carousel .owl-next {
+        right: 10px;
+      }
+      
+      .owl-carousel .owl-prev:hover,
+      .owl-carousel .owl-next:hover {
+        opacity: 1;
+      }
