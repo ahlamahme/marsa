@@ -23,6 +23,7 @@
 .carousel-caption {
     text-align: left;
     padding: 0;
+  
   }
 .fas{
     color: #FF681A;
@@ -34,5 +35,25 @@
     border-radius: 5px;
     color: #FFF;
 }
+.orange{
+  color: #FF681A;
+  font-weight: bold;
+}
+.blue{ color: #004796; 
+  text-transform: uppercase;
 
+}
+.r-dis {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.bold-blue{
+  color: #004796;
+  font-weight: bold;
+  
+
+}
 

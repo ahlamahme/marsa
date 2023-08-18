@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component ,AfterViewInit  } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
+
+declare var $: any; // Import jQuery
+
+
 
 
 @Component({
@@ -7,9 +12,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./accommdation.component.css']
 })
 
-export class AccommdationComponent {
+export class AccommdationComponent  {
 
-  slides = [
+  slidesStore2 = [
     {image: '../../assets/1.jpg'},
     {image: '../../assets/2.jpg'},
     {image: '../../assets/3.jpg'},
@@ -21,40 +26,44 @@ export class AccommdationComponent {
     {image: '../../assets/2.jpg'},
     
   ];
+  slidesStore = [
+    {image: '../../assets/a-3.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-2.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-3.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-4.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-2.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-2.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-3.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image:  '../../assets/a-4.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+    {image: '../../assets/a-2.png',caption:'Explore the oldest of the 7 wonders of the Ancient world at giza',description:'Cairo'},
+  ];
 
-  title = 'ngSlick';
-
-  //slides = [342, 453, 846, 855, 234, 564, 744, 243];
-
-  slideConfig = {
-    "slidesToShow": 4,
-    "slidesToScroll": 1,
-    "dots": true,
-    "infinite": false
-  };
-
-  
-  
-
-  removeSlide() {
-    this.slides.length = this.slides.length - 1;
-  }
-
-  slickInit(e: any) {
-    console.log('slick initialized');
-  }
-
-  breakpoint(e: any) {
-    console.log('breakpoint');
-  }
-
-  afterChange(e: any) {
-    console.log('afterChange');
-  }
-
-  beforeChange(e: any) {
-    console.log('beforeChange');
+  customOptions: OwlOptions = {
+    loop: true,
+    nav:true,
+    navText: [ '<i class=" fa fa-chevron-left"></i>', '<i class=" fa fa-chevron-right"></i>' ],
+    merge:true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    navSpeed: 700,
+    responsive: {
+      0: {
+        items: 4,
+        margin:50,       
+      },
+      400: {
+        items: 4,       
+      },
+      740: {
+        items: 4,
+      },
+      940: {
+        items: 4,       
+      }
+    },   
+   margin:30,
+    stagePadding:30,
   }
 }
-
-

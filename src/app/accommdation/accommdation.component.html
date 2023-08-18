@@ -1,23 +1,37 @@
 <div class="text-center py-5">
-    <p class="blue ">CITY TOUR</p>
-    <p class="bold-blue">Our <span class="orange">Tours</span></p>
+    <p class="blue ">Accommdation</p>
+    <h1 class="bold-blue">Lets Discover Our  <span class="orange">Hotels</span></h1>
     <app-rang-lider></app-rang-lider>
   </div>
       
-  <div class="slick-wrapper container">
+ 
+
+  <div class="  text-center py-4 ">
+    <owl-carousel-o [options]="customOptions" >
+      <ng-container *ngFor="let slide of slidesStore">     
+        <ng-template carouselSlide class="owl-stage"  >       
+          <img [src]="slide.image" class="owl-item carousel-image">  
+        </ng-template>
+      </ng-container>
   
-    
-    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
-      (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
-      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-        <img class="slid-img" [src]="slide.image">
-      </div>
-    </ngx-slick-carousel>
-    
+    </owl-carousel-o>
+  </div>
+
+
+
+
+
+
+
+
+    <div class="d-flex justify-content-end py-2">
+      <a class="bold-blue">Explore</a>
+      <i class="fas fa-arrow-right"></i>
     </div>
-    <div class="btn-container d-flex justify-content-end">
-        <button class="custom">View more</button>
-      </div>
+
+
+
+
     
     
   

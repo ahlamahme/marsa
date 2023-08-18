@@ -1,34 +1,23 @@
-<!-- <div>Some tags before</div>
-  <owl-carousel-o [options]="customOptions">
+<div class="text-center py-5">
+  <p class="blue">City Tours</p>
+  <h1 class="bold-blue">Our <span class="orange">Tours</span></h1>
+  <app-rang-lider></app-rang-lider>
+</div>
 
-    <ng-container *ngFor="let slide of slidesStore">
-      <ng-template carouselSlide >
-        <img [src]="slide.image" >
-      </ng-template>
-    </ng-container>
-
-  </owl-carousel-o>
-  <div>Some tags after</div> -->
-  <!-- <div class="bg">
-    <owl-carousel-o [options]="carouselOptions">
-        <ng-container *ngFor="let slide of slidesStore">
-            <ng-template carouselSlide >
-                <img [src]="slide.image " class="item">
-            </ng-template>
-          </ng-container>        
-      </owl-carousel-o>
-
-  </div> -->
 
 <div class=" bg text-center py-4 ">
   
   <owl-carousel-o [options]="customOptions" >
 
     <ng-container *ngFor="let slide of slidesStore">
+      
       <ng-template carouselSlide class="owl-stage"  >
         
         <img [src]="slide.image" class="owl-item carousel-image">
+        
+
         <div class="carousel-caption">
+          <!-- <img src="../../assets/dicound-img-R.png" class="r-dis img-fluid"> -->
           <p>{{ slide.caption }}</p>
           <p><i class="fas fa-map-marker-alt me-3"></i>{{ slide.description }}</p>
           <!-- Add any additional content here -->
