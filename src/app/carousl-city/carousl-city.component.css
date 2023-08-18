@@ -1,0 +1,25 @@
+
+  
+  .blue{
+    color:#004796;
+    text-transform: uppercase;
+  }
+  
+  .col-md-6 img {
+    width: 150px; /* Set the desired width value */
+    height: 150px;
+    border-radius: 50%;
+    
+  }
+  .row p {
+    font-size: 12px;
+    
+  }
+  .blue{
+    color:#004796;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  
+  

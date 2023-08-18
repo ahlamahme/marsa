@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule ,AfterViewInit} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { BlueHeadComponent } from './blue-head/blue-head.component';
@@ -37,6 +37,7 @@ import { MatOptionModule } from '@angular/material/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
+import { CarouslCityComponent } from './carousl-city/carousl-city.component';
 
  
 
@@ -67,6 +68,7 @@ import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
     FooterComponent,
     TestComponent,
     OwlCarouselComponent,
+    CarouslCityComponent,
     
   
     

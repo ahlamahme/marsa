@@ -61,5 +61,13 @@
     color:#004796;
     text-transform: uppercase;
   }
-
+  .owl-item {
+    border-radius: 20px;
+    opacity: 1;
+ }
+ .owl-carousel .owl-item img {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+ }
   

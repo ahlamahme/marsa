@@ -1,0 +1,74 @@
+<!-- <div class="container mt-5">
+    <div class=" justify-content-center">
+        <div class="text-center ">
+        <div>
+          <div *ngFor="let image of images">
+            <p class="blue">{{image[2]}}</p>
+            <div class="text-img">
+            <p class="px-5"> {{image[0]}}</p>
+            <img [src]="image[1] " class="img">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+        <div class="arrow-container text-center">
+            <a (click)="prevSlide()" class="arrow arrow-left">&#10094;</a>
+            <a (click)="nextSlide()" class="arrow arrow-right">&#10095;</a>
+        </div>  
+  </div> -->
+
+  <!-- <owl-carousel-o [options]="customOptions">
+
+    <ng-container *ngFor="let slide of images">
+      <ng-template carouselSlide>
+        <div class="text-img carousel-item">
+          <p class="px-5"> {{slide[0]}}</p>
+          
+          <img [src]="slide[1]"  [title]="slide[2]">
+        
+        </div>
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o> -->
+<!-- <div class="container">
+  <div class="row">
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let slide of images">
+            <ng-template carouselSlide>
+    <div class="col-6">
+      
+      <p > {{slide[0]}}</p>
+    </div>
+    <div class="col-6 ">  
+    
+      <img [src]="slide[1]"  [title]="slide[2] ">
+    </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>    
+  </div>
+</div> -->
+
+
+<owl-carousel-o [options]="carouselOptions">
+    <ng-template carouselSlide *ngFor="let slide of images">
+      <div class="container">
+      <div class="row py-5 ">
+        <h1 class="blue"> {{slide[2]}}</h1>
+        <div class="col-md-6 text-center d-flex justify-content-center">
+          <!-- Content for the first part -->
+          
+          <p > {{slide[0]}}</p>
+        </div>
+        <div class="col-md-6 text-center d-flex justify-content-center">
+          <!-- Content for the second part -->
+          <img [src]="slide[1]"  [title]="slide[2] ">
+        </div>
+      </div>
+    </div>
+    </ng-template>
+  </owl-carousel-o>
+
+
