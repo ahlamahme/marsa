@@ -5,9 +5,12 @@
    
 }
 .blue{ color: #004796; 
-    text-transform: uppercase;
+
     text-transform: uppercase;
 
+}
+.card{
+    width: 90%;
 }
 
 .bold-blue{
@@ -19,4 +22,32 @@
 .custom{
     background-color:#004796;
     margin: 50px;
+}
+.white{
+
+    width: 50%;
+    background-color: white;
+    height: 30px;
+    border-radius: 0 5px 0 0;
+    position: absolute;
+    top:42%;
+    left:0;
+}
+.card{
+    position: relative;
+}
+.fas{
+    color: #FF681A;
+    margin: 3px;
+}
+.custom{
+    background-color:#004796;
+    
+    border-color:#004796;
+    border-radius: 5px;
+    color: #FFF;
+}
+p{
+    font-size: 12px;
+    color: gray;
 }
