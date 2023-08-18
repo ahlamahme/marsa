@@ -1,0 +1,52 @@
+.orange{
+    color: #FF681A;
+    font-weight: bold;
+  }
+  .blue{ color: #004796; 
+    text-transform: uppercase;
+  
+  }
+  
+  .bold-blue{
+    color: #004796;
+    font-weight: bold;
+  
+  }
+  .card-img-top{
+    width: 15%;
+    height: 15%;
+    margin: 20px 20px  20px;
+  }
+  .gray{
+
+    color: gray;
+    font-size: 12px;
+  }
+  .poma{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .card{
+
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .custom{
+    background-color:#004796;
+    
+    border-color:#004796;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+}
+.clint-img{
+
+    position: absolute;
+    top: -30px;
+    left: 300px;
+    width: 200px;
+    height: 120px;
+}

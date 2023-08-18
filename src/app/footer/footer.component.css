@@ -1,12 +1,14 @@
 .logo-img{
     width: auto;
     height: 50px;
+    margin: 20px;
   }
   footer{
     background: linear-gradient(45deg,#3372B8,#004796);   
   }
   p{
-    color: white
+    color: white;
+    font-size: 12px;
     
     ;}
     @keyframes moveDiv {
@@ -35,3 +37,25 @@
         animation-iteration-count: infinite;
         animation: moveDiv 2s infinite alternate;
       }
+      .fab , .fas{
+
+        color: white;
+        margin: 6px;
+      }
+      .join-box{
+        height: 30px;
+        width: 250px;
+        border-radius: 50px;
+      }
+      .white{
+        background-color: white;
+        width: 75%;
+      }
+      .orange{
+        width: 25%;
+        background-color: #ff681a;
+      }
+      
+
+
+      

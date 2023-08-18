@@ -1,5 +1,6 @@
 select{
     width:150px;
+    height: 30px;
     
 }
 .owl-carousel{
@@ -52,6 +53,7 @@ select{
 }
 button{
     background-color: orange;
+    height: 30px;
 }
 h1{
 

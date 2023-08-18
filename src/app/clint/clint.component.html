@@ -1,21 +1,30 @@
 <div class="text-center py-5">
-    <p class="blue ">CITY TOUR</p>
-    <p class="bold-blue">Our <span class="orange">Tours</span></p>
+    <p class="blue ">Our Clients</p>
+    <h1 class="bold-blue">What are our <span class="orange">Clients Say?</span></h1>
     <app-rang-lider></app-rang-lider>
   </div>
+
   <div class="container">
     <div class="row">
-      <div class="col-sm-4" *ngFor="let card of cards">
+      <div class="col-md-6" *ngFor="let card of cards">
         <div class="card">
+          <div class="d-flex justify-content-start">
           <img [src]="card.image" class="card-img-top" [alt]="card.title">
-          <div class="card-body">
-            <h5 class="card-title">{{ card.title }}</h5>
-            <p class="card-text">{{ card.content }}</p>
+          <div class="py-4">
+          <p >Ahmed Atef</p>
+          <p class="gray">Engineer</p>
+          <hr>
+        </div>
+        </div>
+         <img src="../../assets/clint.png" class="clint-img">
+          <div class="d-flex justify-content-start mb-3 ml-3">
+            <img src="../../assets/tripadvisor.png" class="poma">
+            <p class="card-text gray">{{ card.content }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="btn-container text-center">
+  <div class="btn-container text-center py-5">
     <button class="custom">View offers</button>
   </div>

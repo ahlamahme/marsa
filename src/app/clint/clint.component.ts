@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ClintComponent {
   cards = [
-    { image: '../../assets/1.jpg', title: 'Card 1', content: 'This is the content of Card 1.' },
-    { image: '../../assets/2.jpg', title: 'Card 2', content: 'This is the content of Card 2.' },
-    { image: '../../assets/3.jpg', title: 'Card 3', content: 'This is the content of Card 3.' }
+    { image: '../../assets/ahmed.png', title: 'Card 1', content: '“ I enjoyed a lot with you, as it was an enjoyable trip on the sea ,diving, horse riding “.' },
+    { image: '../../assets/ahmed.png', title: 'Card 2', content: '“ I enjoyed a lot with you, as it was an enjoyable trip on the sea ,diving, horse riding “.' },
+   
   ];
 
 }
