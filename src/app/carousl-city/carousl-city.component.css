@@ -12,7 +12,7 @@
     
   }
   .row p {
-    font-size: 12px;
+    font-size: 14px;
     
   }
   .blue{
@@ -20,6 +20,14 @@
     text-transform: uppercase;
     font-weight: bold;
   }
+  .custom{
+    background-color:#004796;
+
+    border-color:#004796;
+    border-radius: 5px;
+    color: #FFF;
+}
+
   
   
   

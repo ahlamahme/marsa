@@ -10,10 +10,10 @@ export class CarouslCityComponent {
 
   qusir_paragraph = `Lorem ipsum dolor sit amet, consectetur adipiscing elit 
    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-   totam rem aperiam, e dicta sunt explicabo`;
+   totam rem aperiam, e dicta sunt explicabo unde omnis iste natus error sit voluptatem accusantium doloremque`;
    safagaa_paragraph = `Lorem ipsum dolor sit amet, consectetur adipiscing elit 
    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-   totam rem aperiam`;
+   totam rem aperiam unde omnis iste natus error sit voluptatem accusantium doloremque`;
    
    images: [string, string, string][] = [
     [this.qusir_paragraph, '../../assets/ship.jpg','qusier'],
