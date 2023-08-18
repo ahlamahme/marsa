@@ -17,11 +17,7 @@
 }
 .custom{
     background-color:#004796;
-    margin: 50px;
-}
-
-.fa{
-    color: #FF681A;
+    
 }
 .photo-container {
     position: relative;
@@ -32,6 +28,7 @@
   .photo-container img {
     position: absolute;
     top: 0;
+    left: 0;
     
     width: 100%;
     height: 100%;
@@ -48,21 +45,45 @@
     color: #FFF;
 }
 
-.col-md-6{
+
     
+.dis-img{
+    position: absolute;
+    top:10px;
+    left: 0;
+} 
+.dis-num{
+
+    position: absolute;
+    top:30px;
+    left:350px;
     
 
-   
 }
+.photo{
+    margin-top: 80px;
+}
+.col-md-6{
+    position: relative;
+
+}
+.stars{
+    width:50px;
+    height: 10px;
+}
+
+   
  
 .bg{
     background-color: #F4F4F4;
-
+ padding: 20px;
     border-radius: 20px ;
-    width: 40%;
+    width: 90%;
+    margin-bottom: 20px;
 
 }
 p{
     font-size: small;
+    
 }
 /*test */
