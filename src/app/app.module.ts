@@ -38,6 +38,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
 import { CarouslCityComponent } from './carousl-city/carousl-city.component';
+import { CardOfeerComponent } from './card-ofeer/card-ofeer.component';
 
  
 
@@ -69,6 +70,7 @@ import { CarouslCityComponent } from './carousl-city/carousl-city.component';
     TestComponent,
     OwlCarouselComponent,
     CarouslCityComponent,
+    CardOfeerComponent,
     
   
     

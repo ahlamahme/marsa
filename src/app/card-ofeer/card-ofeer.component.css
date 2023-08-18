@@ -1,0 +1,68 @@
+
+.orange{
+
+    color: #FF681A;
+    font-weight: bold;
+}
+.blue{ color: #004796; 
+    text-transform: uppercase;
+
+}
+
+.bold-blue{
+    color: #004796;
+    font-weight: bold;
+    
+
+}
+.custom{
+    background-color:#004796;
+    margin: 50px;
+}
+
+.fa{
+    color: #FF681A;
+}
+.photo-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .photo-container img {
+    position: absolute;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .fas{
+    color: #FF681A;
+  }
+  .custom{
+    background-color:#004796;
+    
+    border-color:#004796;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.col-md-6{
+    
+    
+
+   
+}
+ 
+.bg{
+    background-color: #F4F4F4;
+
+    border-radius: 20px ;
+    width: 40%;
+
+}
+p{
+    font-size: small;
+}
+/*test */
