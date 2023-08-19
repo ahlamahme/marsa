@@ -1,0 +1,49 @@
+.new-blue-head{
+    height: 40px;
+    background: linear-gradient(45deg,#3372B8,#004796);
+}
+.girl-face{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px ;
+    margin-right: 10px;  
+   }
+   .girl-face2{
+    width: 70px;
+    height: 30px;  
+    margin-right: 10px; 
+   }
+p{
+    color: white;
+}
+.img-fluid{
+
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.vertical-line {
+    border-left: 1px solid white;
+    height: 20px;
+    margin-top: 5px;
+  }
+   .white{
+    height: 100%;
+    width: 33.3333%;
+   }
+   .black{
+    height: 100%;
+    width: 33.3333%;
+   }
+   .orange{
+    height: 100%;
+    width: 33.3333%;
+   }
+    .fas {
+        font-size: 2px; /* Adjust the size of the vertical line icon */
+        color: white;
+    }
+   
+   
+  
+  

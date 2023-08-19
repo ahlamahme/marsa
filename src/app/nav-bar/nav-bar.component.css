@@ -1,10 +1,16 @@
-
-  
+.nav-bar{
+  width: 40px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
   .logo-img{
     width: auto;
-    height: 50px;
+    height: 30px;
   }
-  
+  .nav-link{
+    font-size: 10px;
+  }
+
   .navbar-toggler{
     border: 1px solid gray;
   }
@@ -23,7 +29,10 @@
     .dropdown-item {
       color: black;
     }
-    
+    .navbar{
+
+      margin-bottom: 0 ;
+    }
   
     
   

@@ -50,7 +50,7 @@ export class AccommdationComponent  {
     navSpeed: 700,
     responsive: {
       0: {
-        items: 4,
+        items: 1,
         margin:50,       
       },
       400: {

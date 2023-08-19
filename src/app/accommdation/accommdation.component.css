@@ -14,7 +14,6 @@
   
   }
 
-
 .fas{
     color: #004796;
     margin: 3px;
@@ -41,3 +40,13 @@
 
 }
 
+
+
+  
+.hover-zoom {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.2); /* Increase the scale of the image on hover */
+  }

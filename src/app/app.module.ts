@@ -39,6 +39,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OwlCarouselComponent } from './owl-carousel/owl-carousel.component';
 import { CarouslCityComponent } from './carousl-city/carousl-city.component';
 import { CardOfeerComponent } from './card-ofeer/card-ofeer.component';
+import { NewBlueHeadComponent } from './new-blue-head/new-blue-head.component';
 
  
 
@@ -71,6 +72,7 @@ import { CardOfeerComponent } from './card-ofeer/card-ofeer.component';
     OwlCarouselComponent,
     CarouslCityComponent,
     CardOfeerComponent,
+    NewBlueHeadComponent,
     
   
     

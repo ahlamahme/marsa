@@ -46,7 +46,7 @@ export class OwlCarouselComponent {
     
     responsive: {
       0: {
-        items: 3,
+        items: 1,
         margin:50,
        
       },
